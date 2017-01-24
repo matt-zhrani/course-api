@@ -1,16 +1,11 @@
 package com.ahmedalzhrani.springbootstarter.topics;
 
-import java.util.List;
-
-import javax.persistence.CascadeType;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
-
-import com.ahmedalzhrani.springbootstarter.courses.Course;
+import javax.persistence.Table;
 
 @Entity
+@Table(name="topics")
 public class Topic {
 	
 	@Id

@@ -3,10 +3,12 @@ package com.ahmedalzhrani.springbootstarter.lessons;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 
 import com.ahmedalzhrani.springbootstarter.courses.Course;
 
 @Entity
+@Table(name="lessons")
 public class Lesson {
 	
 	@Id
